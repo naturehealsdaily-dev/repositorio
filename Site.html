@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+    <head>
+
+         <!--Codificação p/ corrigir erros de acentuação-->
+         <meta charset="utf-8">
+       
+         <!--Título do site-->
+         <title>Minha Primeira Página Em HTML</title>
+
+    </head>
+
+    <body>
+
+        <h2>Meu Primeiro Formulário Em HTML 5</h2>
+        
+        <form action="" method="post" enctype="multipart/form-data">
+
+            <div>
+
+                <label for="">Nome</label>
+                <input name="nome" required="required" placeholder="Informe seu nome" type="text">
+            </div><br>
+
+            <div>
+
+                <label>E-mail</label>
+                <input name="email" required="required" placeholder="Informe seu email" type="text">
+            </div><br>
+
+            <div>
+
+                <label>Senha</label>
+                <input required="required" placeholder="Informe sua senha" type="password">
+            </div>
+
+            <div>
+
+                <p>Sexo</p>
+                <label for="sexo1"><input name="sexo" id="sexo1" value="f" type="radio">Feminino</label>
+                <label for="sexo2"><input name="sexo" id="sexo2" value="m" type="radio">Masculino</label>
+            </div><br>
+
+            <div>
+                <label for="">Anexar PDF ou Foto</label>
+                <input required="required" name="Pdf_foto" type="file">
+            </div><br>
+
+            <div>
+               <label for="">Escolha seu bairro</label> 
+               <select required="required" name="Bairro">
+                    <option selected="selected" value="">Escolha</option>
+                    <option value="1">Savassi</option>
+                    <option value="2">Centro</option>
+                    <option value="3">Pampulha</option>
+               </select>
+            </div><br>
+
+            <div>
+                <label for="">Informações</label>
+                <textarea name="informacoes" required="required" cols="25" rows="2"></textarea>
+            </div><br>
+
+            <div>
+                <label for="">
+                    <input name="newsletter" id="informacoes" type="checkbox">
+                    Quer receber informações via e-mail?</label>
+            </div><br>
+
+            <div>
+                <button text="submit">Enviar Dados</button>
+            </div>
+        </form>
+        
+    </body>
+    
+</html>
